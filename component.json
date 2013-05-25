@@ -1,0 +1,15 @@
+{
+  "name": "hn-button-snippet",
+  "dependencies": {
+    "visionmedia/minstache": "*"
+  },
+  "development": {
+    "component/assert": "*",
+    "component/type": "*"
+  },
+  "scripts": [
+    "index.js",
+    "button.js",
+    "script.js"
+  ]
+}
