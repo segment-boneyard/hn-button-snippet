@@ -1,1 +1,1 @@
-module.exports = '<a href="https://news.ycombinator.com/submit" class="hn-button"{{#title}} data-title="{{title}}"{{/title}}{{#url}} data-url="{{url}}"{{/url}}{{#count}} data-count="{{count}}"{{/count}}{{#style}} data-style="{{style}}"{{/style}}>Vote on HN</a>';
+module.exports = '<a href="https://news.ycombinator.com/submit" class="hn-button"{{#title}} data-title="{{title}}"{{/title}}{{#url}} data-url="{{url}}"{{/url}}{{#count}} data-count="{{count}}"{{/count}}{{#style}} data-style="{{style}}"{{/style}}>Vote on Hacker News</a>';

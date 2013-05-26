@@ -1,3 +1,6 @@
+build: clean components script.html convert
+	component build --dev
+
 clean:
 	rm -fr components build script.html
 
@@ -7,9 +10,6 @@ components: component.json
 convert: button.html script.html
 	component convert button.html
 	component convert script.html
-
-build: clean components script.html convert
-	component build --dev
 
 script.html:
 	echo '<script type="text/javascript">' > script.html

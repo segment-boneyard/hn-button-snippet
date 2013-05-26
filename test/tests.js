@@ -16,19 +16,19 @@ describe('hn-button-snippet', function () {
     });
 
     it('should return the right default button template', function () {
-      assert(snippet.button() === '<a href="https://news.ycombinator.com/submit" class="hn-button">Vote on HN</a>');
+      assert(snippet.button() === '<a href="https://news.ycombinator.com/submit" class="hn-button">Vote on Hacker News</a>');
     });
 
     it('should allow for an optional button title', function () {
-      assert(snippet.button({ title : 'Test' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test">Vote on HN</a>');
+      assert(snippet.button({ title : 'Test' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test">Vote on Hacker News</a>');
     });
 
     it('should allow for an optional button url', function () {
-      assert(snippet.button({ url : 'https://segment.io' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-url="https://segment.io">Vote on HN</a>');
+      assert(snippet.button({ url : 'https://segment.io' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-url="https://segment.io">Vote on Hacker News</a>');
     });
 
     it('should allow for an optional button count', function () {
-      assert(snippet.button({ count : 'vertical' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-count="vertical">Vote on HN</a>');
+      assert(snippet.button({ count : 'vertical' }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-count="vertical">Vote on Hacker News</a>');
     });
 
     it('should allow for an optional everything', function () {
@@ -36,7 +36,7 @@ describe('hn-button-snippet', function () {
         title : 'Test',
         url : 'https://segment.io',
         count : 'vertical'
-      }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test" data-url="https://segment.io" data-count="vertical">Vote on HN</a>');
+      }) === '<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test" data-url="https://segment.io" data-count="vertical">Vote on Hacker News</a>');
     });
   });
 
