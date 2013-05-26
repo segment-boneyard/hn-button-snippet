@@ -8,7 +8,7 @@
 
 ## API
     
-### snippet
+### snippet(options)
 ```js
 var snippet = require('hn-button-snippet');
 snippet();
