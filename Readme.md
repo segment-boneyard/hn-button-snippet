@@ -26,14 +26,15 @@ Will render the full snippet:
 var snippet = require('hn-button-snippet');
 snippet.button({
   title: 'Segment.io',
-  url: 'https://segment.io'
+  url: 'https://segment.io',
+  count: 'horizontal'
 });
 ```
 
 Will render just the button:
 
 ```html
-<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test" data-url="https://segment.io">Vote on Hacker News</a>
+<a href="https://news.ycombinator.com/submit" class="hn-button" data-title="Test" data-url="https://segment.io" data-count="horizontal">Vote on Hacker News</a>
 ```
 
 ### script
