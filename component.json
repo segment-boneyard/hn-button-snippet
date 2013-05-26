@@ -1,5 +1,8 @@
 {
   "name": "hn-button-snippet",
+  "repo": "segmentio/hn-button-snippet",
+  "description": "Render a Hacker News button HTML snippet.",
+  "version": "0.0.2",
   "dependencies": {
     "visionmedia/minstache": "*"
   },
