@@ -3,5 +3,5 @@
 * Changed link text to "Vote on Hacker News".
 
 0.0.1 - May 25, 2013
---------------------
+====================
 * Initial commit. :star:
